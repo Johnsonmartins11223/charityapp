@@ -1,0 +1,48 @@
+.Modal-container {
+    margin: auto;
+    background: #ffff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 5px;
+}
+.img{
+    height: 200px;
+    width: 200px;
+}
+.modal-text{
+    align-self: center;
+    font-size: 20px;
+    color: gray;
+}
+.buttons-container {
+    margin-top: 30px;
+    margin-right: 30px;
+    align-self: flex-end;
+
+}
+.button{
+    background-color: steelblue;
+    text-align: center;
+    padding: 10px 30px;
+    border:  none;
+    cursor: pointer;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+button:hover{
+    opacity: 0.8;
+    border:  1px solid gray;
+}
+@media (max-width: 600px) {
+    .Modal-container{
+        margin-top: 40px;
+        background: #ffff;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+}

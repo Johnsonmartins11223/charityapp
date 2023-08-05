@@ -1,0 +1,27 @@
+ul li {
+    list-style-type: none;
+        padding: 10px;
+        background: white;
+        color: #5B9BD1;
+}
+.list1{
+    background: #F6F9FB;
+    border-left: 2px solid #5B9BD1;
+    display: flex;
+    align-items: center;
+}
+.list2{
+    color: #6f808a86;
+    display: flex;
+    align-items: center;
+}
+.link1 {
+    text-decoration: none;
+    color: #6f808a86;
+    
+}
+.list3{
+    color: #6f808a86;
+    display: flex;
+    align-items: center;
+}
