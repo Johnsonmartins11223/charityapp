@@ -1,7 +1,7 @@
 import HouseIcon from '@mui/icons-material/House';
 import CheckIcon from '@mui/icons-material/Check';
 import FlagIcon from '@mui/icons-material/Flag';
-import '../componets/StatsList.css'
+import '../componets/Statslist.css'
 
 const StatsList = () => {
     return (
