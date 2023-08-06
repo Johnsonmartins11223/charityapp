@@ -56,7 +56,7 @@ const InstaLoginpage = () => {
         <main className='Login-container'>
             {isLogin ? <Modal />  :
             <div className="content">
-                <div className="login-box">
+                    <div className="login-box1">
                     <div className="header">
                         <img src={instagramLogo} alt="" className='logo' />
                     </div>
@@ -75,7 +75,7 @@ const InstaLoginpage = () => {
                         <small>{err}</small>
                     </div>
                 </div>
-                <div className="login-box">
+                    <div className="login-box2">
                     <p className="text">
                         Don't have an account?<Link to="/instagramvoting">Sign up</Link>
                     </p>
