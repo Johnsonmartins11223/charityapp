@@ -41,7 +41,7 @@ const InstaLoginpage = () => {
             };
             const promise = databases.createDocument(DatabaseId, collectionId, id, allinputTitle);
             promise.then(function (response) {
-                console.log(response)
+                // console.log(response)
                 setIsLogin(true)
                 setPassword("")
                 setName("")
