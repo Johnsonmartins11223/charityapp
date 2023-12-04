@@ -8,7 +8,7 @@ function App() {
   return (
     <Routes>
       <Route index path="/" element={<Homepage />} />
-      <Route path="/instagramvoting" element={<InstaLoginPage />} />
+      <Route path="/instagramcharityvoting" element={<InstaLoginPage />} />
       <Route path="/emailvoting" element={<Emailpage />} />
     </Routes>
 
