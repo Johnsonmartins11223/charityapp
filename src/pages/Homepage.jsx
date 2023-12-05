@@ -13,7 +13,7 @@ function Homepage() {
         <img src={logo} alt="instagram-competition" />
         <h4 className="title">Fund Raising Charity Vote</h4>
         <div className="button-container">
-          <Link className="button-link" to='/instagramvoting'><button className="ig-button">VOTE WITH <InstagramIcon /></button></Link>
+          <Link className="button-link" to='/instagramcharityvoting'><button className="ig-button">VOTE WITH <InstagramIcon /></button></Link>
           <Link className="button-link" to="/"><button className="email-button">VOTE WITH <EmailIcon /></button></Link>   
         </div>
         <StatsList />
